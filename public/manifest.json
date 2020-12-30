@@ -1,0 +1,21 @@
+{
+  "name": "Food Insecurity",
+  "short_name": "Food",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FC8268",
+  "theme_color": "#FF5733",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
