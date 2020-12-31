@@ -1,7 +1,7 @@
 {
   "name": "Food Insecurity",
   "short_name": "Food",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#FC8268",
   "theme_color": "#FF5733",
