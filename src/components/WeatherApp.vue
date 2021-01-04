@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="title">{{ title }}</div>
-    <button class="fetchButton" v-on:click="getWeather">Get Weather</button>
+    <button class="fetchButton" v-on:click="getWeather">Fetch</button>
     <div class="weatherContainer" v-if="!isLoading">
       <div class="country">
         {{ weather.country.name }}, {{ weather.country.code }}
@@ -63,13 +63,15 @@ main {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
-  font-family: "Redressed", cursive;
+  font-family: "Redressed";
 }
 
 .fetchButton {
   outline: none;
+  font-family: "Redressed", cursive;
+  font-size: 20px;
   margin-top: 2vh;
   padding: 10px 25px;
   width: 100%;
